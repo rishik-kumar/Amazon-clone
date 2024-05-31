@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;   
+}
+/* ----------------------------------------------for all the elements------------------------------------------ */
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(amazon.logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/* ------------------------------------------------amazon logo box1-------------------------------------------- */
+.p1{
+    color: #cccccc ;    
+    margin-left: 10px;
+}
+.p2{
+    color: #ffffff;
+    margin-left: 3px;
+}
+.loc-logo{
+    display: flex;
+}
+.p-nav{
+    align-self: center;
+}
+/* ------------------------------------------------address info box2-------------------------------------------- */
+.nav-search{
+    border: 2px solid black;
+    display: flex;
+    align-self: center;
+    background-color: #febd68;
+    width: 590px;
+    height: 38px;
+    border-radius: 5px;
+    align-content: center  
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search{
+    width: 500px;
+    font-size: 0.9rem;
+    border: none;
+}
+.all{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 5px; 
+}
+.ser-logo{
+    width: 30px;
+    color: #0F1111;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    size: 10px;
+    font-size: 1.2rem;
+    padding-left: 2px;
+    background-color: #febd68; 
+    border: none;
+}
+/* ----------------------------------------------search box 3--------------------------------------------------- */
+.imagef{
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(indian.png);
+    background-size: cover;
+    align-self: center;
+    position: relative;
+    right: 25px;
+    font-size: smaller;
+}
+.flag-emo{
+    align-self: center;
+    font-size: smaller;
+}
+/* -------------------------------------------------box 4-------------------------------------------------------- */
+.nav-signin{
+    align-self: center;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* --------------------------------------------------box 5------------------------------------------------------ */
+.nav-return { 
+    align-self: center;
+}
+/* --------------------------------------------------box 6------------------------------------------------------ */
+.cart-logo{
+    align-self: center;
+}
+.cart-logo i{
+    font-size: 25px;
+}
+/* -----------------------------------------------nav-bar done--------------------------------------------------- */
+.panel{
+    height: 38px;
+    background-color: #222f3d;
+    align-items: center;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+.panel-options p{
+    display: inline;
+    margin-left: 30px;
+}
+.p1{
+    color: white;
+}
+.panel-all{
+    color: white;
+    align-self: center;
+}
+.panel-options{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* -------------------------------------------------panel done-------------------------------------------------- */
+.subnav{
+    height: 50px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.image{
+    width: 192px;
+    height: 50px;
+   background-image: url(Amazon-fashion-logo.png);
+   background-size: cover;
+}
+.image:hover{
+    border: 2px solid grey;
+}
+.options a{
+    display: inline;
+    margin-left: 90px;
+    text-decoration: none;
+    font-size: small;
+}
+.options{
+    width: 70%;
+}
+/* --------------------------------------------------sub nav done----------------------------------------------- */
+.salesimg{
+    height: 100px;
+    background-image: url(sale.jpg);
+    background-size: cover;
+}
+.gif{
+    height: 340px;
+    background-image: url(fashion.gif);
+    background-size: cover;
+}
+.men{
+    height: 340px;
+    background-image: url(Mens.png);
+    background-size: cover;
+}
+/* ------------------------------------------------------div ---------------------------------------------------- */
+.offers{
+    height: 280px;
+    border-radius: 0px;
+    border: 10px solid rgb(230, 221, 221);
+    border-bottom: 0px;
+}
+.off1{
+    height:190px;
+    width: 140px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(8-PM-Deals._CB572369269_.gif);
+    background-size: cover;
+    border-radius: 20px;
+}
+.off2{
+    height:190px;
+    width: 140px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(Buy-More-Save-More._CB570625840_.gif);
+    background-size: cover;
+    border-radius: 20px;
+}
+.off3{
+    height:190px;
+    width: 140px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(Combos._CB570625840_.gif);
+    background-size: cover;
+    border-radius: 20px;
+}
+.off4{
+    height:190px;
+    width: 140px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(Coupons._CB570625840_.gif);
+    background-size: cover;
+    border-radius: 20px;
+}
+.off5{
+    height:190px;
+    width: 140px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(Free-Gifts._CB570625840_.gif);
+    background-size: cover;
+    border-radius: 20px;
+}
+.off6{
+    height:190px;
+    width: 140px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(unrec._CB570511553_.gif);
+    background-size: cover;
+    border-radius: 20px;
+}
+.bioffers{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.offers p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 1000;
+}
+.clothes{
+    height: 280px;
+    border-radius: 0px;
+    border: 10px solid rgb(230, 221, 221);
+}
+.offr1{
+    height:190px;
+    width: 140px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(w1.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+.offr2{
+    height:190px;
+    width: 140px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(2w.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+.offr3{
+    height:190px;
+    width: 140px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(w3.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+.offr4{
+    height:190px;
+    width: 140px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(w4.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+.offr5{
+    height:190px;
+    width: 140px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(w5.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+.offr6{
+    height:190px;
+    width: 140px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(w6.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+.biclothes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.clothes p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 1000;
+}
+/* ---------------------------------------------------main done----------------------------------------------- */
+.foot-1{
+    height: 40px;
+    background-color: #384655;
+    color: white;
+    text-align: center;
+}
+.foot-1 p{
+    position: relative;
+    top: 15px;
+    font-weight: 500;
+    font-size: small;
+}
+.foot-2{
+    height:500px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.con1{
+    font-size: small;
+    position: relative;
+    top: 30px;
+}
+.con1 p{
+    font-weight: 600;
+    font-size: large;
+}
+.con2{
+    font-size: small;
+    position: relative;
+    top: 30px;
+}
+.con2 p{
+    font-weight: 600;
+    font-size: large;
+}
+.con3{
+    font-size: small;
+    position: relative;
+    top: 30px;
+}
+.con3 p{
+    font-weight: 600;
+    font-size: large;
+}
+.con4{
+    font-size: small;
+    position: relative;
+    top: 30px;
+}
+.con4 p{
+    font-weight: 600;
+    font-size: large;
+}
